@@ -29,7 +29,7 @@ public class Main {
                 try (ServerSocket serverSocket = new ServerSocket(8000)) {
                     Socket socket = serverSocket.accept();
                     EncryptedSocket encryptedSocket = new EncryptedSocket(socket);
-//                    encryptedSocket.getWriter().writeString(encryptedSocket.getReader().readString());
+                    encryptedSocket.getWriter().writeString(encryptedSocket.getReader().readString());
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
@@ -41,7 +41,7 @@ public class Main {
                 Socket socket = new Socket("localhost", 8000);
                 EncryptedSocket encryptedSocket = new EncryptedSocket(socket);
                 encryptedSocket.getWriter().writeString("Hello world");
-//                System.out.println(encryptedSocket.getReader().readString());
+                System.out.println(encryptedSocket.getReader().readString());
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

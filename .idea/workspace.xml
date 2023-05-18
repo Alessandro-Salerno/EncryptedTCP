@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fc5282f-ec80-47f3-b5d5-8c243f9cb34b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/DefaultEncryptionEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/DefaultEncryptionEngineFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptionEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptionEngineFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/PublicKeyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/AsymmetricEncryptionEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/exceptions/IncompatibleProtocolVersionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/DefaultHandshakeModeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/HandshakeMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/HandshakeModeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/master/DefaultMasterHandshake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/slave/DefaultSlaveHandshake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/DefaultSymmetricEncryptionEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/DefaultSymmetricEncryptionEngineFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/SymmetricEncryptionEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/SymmetricEncryptionEngineFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/DefaultEncryptionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/DefaultAsymmetricEncryptionEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/DefaultEncryptionEngineFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/DefaultAsymmetricEncryptionEngineFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptionEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptionEngineFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/AsymmetricEncryptionEngineFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/PublicKeyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/PublicKeyFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -50,6 +63,8 @@
   <component name="ProjectId" id="2PkuosE63bvLUK9WEzrDzTwrMk0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -58,7 +73,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Alessandro Salerno/Documents/EncryptedTCP/src/main/resources&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
