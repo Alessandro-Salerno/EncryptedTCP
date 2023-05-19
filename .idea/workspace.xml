@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fc5282f-ec80-47f3-b5d5-8c243f9cb34b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/AsymmetricEncryptionEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/exceptions/IncompatibleProtocolVersionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManagerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeManagerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/DefaultHandshakeModeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/HandshakeMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/HandshakeModeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/master/DefaultMasterHandshake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/slave/DefaultSlaveHandshake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/DefaultSymmetricEncryptionEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/DefaultSymmetricEncryptionEngineFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/SymmetricEncryptionEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/SymmetricEncryptionEngineFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/DefaultEncryptionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/DefaultAsymmetricEncryptionEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/DefaultEncryptionEngineFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/DefaultAsymmetricEncryptionEngineFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptionEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptionEngineFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/AsymmetricEncryptionEngineFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/PublicKeyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/PublicKeyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/slave/DefaultSlaveHandshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/slave/DefaultSlaveHandshake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

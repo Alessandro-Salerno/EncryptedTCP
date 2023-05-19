@@ -10,7 +10,7 @@ public class EncryptedReader {
     private final FramedReader baseReader;
     private final EncryptionEngine encryptionEngine;
 
-    protected EncryptedReader(FramedReader baseReader, EncryptionEngine encryptionEngine) {
+    public EncryptedReader(FramedReader baseReader, EncryptionEngine encryptionEngine) {
         this.baseReader = baseReader;
         this.encryptionEngine = encryptionEngine;
     }
