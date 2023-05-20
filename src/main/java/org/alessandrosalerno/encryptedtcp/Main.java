@@ -1,14 +1,7 @@
 package org.alessandrosalerno.encryptedtcp;
 
-import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.security.KeyFactory;
-import java.security.KeyPair;
-import java.security.NoSuchAlgorithmException;
-import java.security.PublicKey;
-import java.security.spec.InvalidKeySpecException;
-import java.security.spec.X509EncodedKeySpec;
 
 public class Main {public static void main(String[] args) {
         new Thread(() -> {

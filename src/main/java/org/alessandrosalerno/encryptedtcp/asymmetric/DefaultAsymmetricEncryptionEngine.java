@@ -2,7 +2,6 @@ package org.alessandrosalerno.encryptedtcp.asymmetric;
 
 import javax.crypto.Cipher;
 import java.security.*;
-import java.security.interfaces.RSAPublicKey;
 
 public final class DefaultAsymmetricEncryptionEngine implements AsymmetricEncryptionEngine {
     private KeyPair keyPair;

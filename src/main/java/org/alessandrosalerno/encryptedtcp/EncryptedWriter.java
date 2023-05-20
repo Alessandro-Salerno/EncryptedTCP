@@ -1,6 +1,5 @@
 package org.alessandrosalerno.encryptedtcp;
 
-import org.alessandrosalerno.encryptedtcp.asymmetric.AsymmetricEncryptionEngine;
 import org.alessandrosalerno.framedtcp.FramedWriter;
 
 import java.io.IOException;

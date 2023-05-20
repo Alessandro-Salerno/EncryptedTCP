@@ -18,7 +18,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.security.KeyPair;
-import java.util.Arrays;
 
 public final class DefaultMasterHandshake implements HandshakeMode {
     private final Socket socket;
