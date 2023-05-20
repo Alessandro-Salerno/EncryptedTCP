@@ -54,9 +54,13 @@ public final class DefaultHandshakeManager implements HandshakeManager {
             if (!myProtocolVersion.equals(otherVersion))
                 throw new IncompatibleProtocolVersionException(otherVersion);
 
-            int myRandom = new Random().nextInt();
-            writer.writeString(String.valueOf(myRandom));
-            int otherRandom = Integer.parseInt(reader.readString());
+            int myRandom, otherRandom;
+
+            do {
+                myRandom = new Random().nextInt();;
+                writer.writeString(String.valueOf(myRandom));
+                otherRandom = Integer.parseInt(reader.readString());
+            } while (myRandom == otherRandom);
 
             return handshakeModeFactory.fromNumbers(myRandom,
                                                         otherRandom,
