@@ -35,7 +35,8 @@ public final class DefaultHandshakeManager implements HandshakeManager {
 
     @Override
     public SymmetricEncryptionEngine finalizeHandshake() {
-        return null;
+        HandshakeResult handshake = this.handshakeMode.perform();;
+        return this.symmetricEncryptionEngineFactory.newInstance(handshake.secretKey(), handshake.iv());
     }
 
     private HandshakeMode establishConnection(HandshakeModeFactory handshakeModeFactory) {
@@ -46,7 +47,7 @@ public final class DefaultHandshakeManager implements HandshakeManager {
             FramedReader reader = new FramedReader(new InputStreamReader(this.socket.getInputStream()));
             FramedWriter writer = new FramedWriter(new OutputStreamWriter(this.socket.getOutputStream()));
 
-            String myProtocolVersion = "0.0.1";
+            String myProtocolVersion = "VANILLA/0.0.1";
             writer.writeString(myProtocolVersion);
             String otherVersion = reader.readString();
 

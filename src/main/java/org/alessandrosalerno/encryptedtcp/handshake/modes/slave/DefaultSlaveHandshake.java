@@ -17,6 +17,8 @@ import javax.crypto.spec.SecretKeySpec;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
+import java.util.Arrays;
+import java.util.Base64;
 
 public final class DefaultSlaveHandshake implements HandshakeMode {
     private final Socket socket;
@@ -38,10 +40,9 @@ public final class DefaultSlaveHandshake implements HandshakeMode {
 
         try {
             FramedReader reader = new FramedReader(new InputStreamReader(this.socket.getInputStream()));
-            FramedWriter writer = new FramedWriter(new OutputStreamWriter(this.socket.getOutputStream()));
-
             EncryptedReader aReader = new EncryptedReader(reader, asym);
-            EncryptedWriter aWriter = new EncryptedWriter(writer, asym);
+
+            FramedWriter writer = new FramedWriter(new OutputStreamWriter(this.socket.getOutputStream()));
 
             writer.writeBytes(asym.getPublicKey().getEncoded());
             byte[] symKey = aReader.readBytes();
@@ -49,6 +50,9 @@ public final class DefaultSlaveHandshake implements HandshakeMode {
 
             SecretKey sKey = new SecretKeySpec(symKey, "AES");
             IvParameterSpec iv = new IvParameterSpec(symIv);
+
+            writer.writeString("OK");
+            while (!reader.readString().equals("OK"));
 
             return new HandshakeResult(sKey, iv);
         } catch (Exception e) {

@@ -2,6 +2,7 @@ package org.alessandrosalerno.encryptedtcp.asymmetric;
 
 import javax.crypto.Cipher;
 import java.security.*;
+import java.security.interfaces.RSAPublicKey;
 
 public final class DefaultAsymmetricEncryptionEngine implements AsymmetricEncryptionEngine {
     private KeyPair keyPair;
@@ -17,8 +18,8 @@ public final class DefaultAsymmetricEncryptionEngine implements AsymmetricEncryp
     @Override
     public byte[] encrypt(byte[] message) {
         try {
-            Cipher cipher = Cipher.getInstance("RSA");
-            cipher.init(Cipher.ENCRYPT_MODE, this.keyPair.getPrivate());
+            Cipher cipher = Cipher.getInstance(this.getAlgorithm());
+            cipher.init(Cipher.ENCRYPT_MODE, this.keyPair.getPublic());
             return cipher.doFinal(message);
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -28,7 +29,7 @@ public final class DefaultAsymmetricEncryptionEngine implements AsymmetricEncryp
     @Override
     public byte[] decrypt(byte[] message) {
         try {
-            Cipher cipher = Cipher.getInstance("RSA");
+            Cipher cipher = Cipher.getInstance(this.getAlgorithm());
             cipher.init(Cipher.DECRYPT_MODE, this.keyPair.getPrivate());
             return cipher.doFinal(message);
         } catch (Exception e) {
@@ -64,7 +65,7 @@ public final class DefaultAsymmetricEncryptionEngine implements AsymmetricEncryp
     private KeyPair generateKeyPair(int keySize) {
         try {
             SecureRandom secureRandom = new SecureRandom();
-            KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
+            KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(this.getAlgorithm());
             keyPairGenerator.initialize(keySize, secureRandom);
             return keyPairGenerator.generateKeyPair();
         } catch (NoSuchAlgorithmException noSuchAlgorithmException) {

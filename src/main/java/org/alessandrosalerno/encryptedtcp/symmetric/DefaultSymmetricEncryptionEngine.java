@@ -27,7 +27,7 @@ public final class DefaultSymmetricEncryptionEngine implements SymmetricEncrypti
     @Override
     public byte[] encrypt(byte[] message) {
         try {
-            Cipher cipher = Cipher.getInstance("AES");
+            Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
             cipher.init(Cipher.ENCRYPT_MODE, this.secretKey, this.iv);
             return cipher.doFinal(message);
         } catch (Exception e) {
@@ -38,7 +38,7 @@ public final class DefaultSymmetricEncryptionEngine implements SymmetricEncrypti
     @Override
     public byte[] decrypt(byte[] message) {
         try {
-            Cipher cipher = Cipher.getInstance("AES");
+            Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
             cipher.init(Cipher.DECRYPT_MODE, this.secretKey, this.iv);
             return cipher.doFinal(message);
         } catch (Exception e) {

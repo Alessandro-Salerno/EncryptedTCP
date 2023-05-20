@@ -6,8 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="1fc5282f-ec80-47f3-b5d5-8c243f9cb34b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/DefaultAsymmetricEncryptionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/DefaultAsymmetricEncryptionEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/DefaultHandshakeModeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/DefaultHandshakeModeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/master/DefaultMasterHandshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/master/DefaultMasterHandshake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/slave/DefaultSlaveHandshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/slave/DefaultSlaveHandshake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/DefaultSymmetricEncryptionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/DefaultSymmetricEncryptionEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +68,26 @@
       <recent name="C:\Users\Alessandro Salerno\Documents\EncryptedTCP\src\main\resources" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.alessandrosalerno.encryptedtcp.Main" />
+      <module name="EncryptedTCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.alessandrosalerno.encryptedtcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,5 +98,15 @@
       <updated>1684013580874</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
