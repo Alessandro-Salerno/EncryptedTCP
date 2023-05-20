@@ -1,9 +1,9 @@
-package org.alessandrosalerno.encryptedtcp;
+import org.alessandrosalerno.encryptedtcp.EncryptedSocket;
 
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Main {public static void main(String[] args) {
+public class Test {public static void main(String[] args) {
         new Thread(() -> {
             LOOP: while (true) {
                 try (ServerSocket serverSocket = new ServerSocket(8000)) {

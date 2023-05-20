@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fc5282f-ec80-47f3-b5d5-8c243f9cb34b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/EncryptedSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/DefaultAsymmetricEncryptionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/asymmetric/DefaultAsymmetricEncryptionEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/DefaultHandshakeManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/HandshakeManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/DefaultHandshakeModeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/DefaultHandshakeModeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/master/DefaultMasterHandshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/master/DefaultMasterHandshake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/slave/DefaultSlaveHandshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/handshake/modes/slave/DefaultSlaveHandshake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/DefaultSymmetricEncryptionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/symmetric/DefaultSymmetricEncryptionEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alessandrosalerno/encryptedtcp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +59,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.alessandrosalerno.encryptedtcp.Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="EncryptedTCP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.alessandrosalerno.encryptedtcp.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
