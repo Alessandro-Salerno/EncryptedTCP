@@ -47,7 +47,7 @@ public final class DefaultHandshakeManager implements HandshakeManager {
             FramedReader reader = new FramedReader(new InputStreamReader(this.socket.getInputStream()));
             FramedWriter writer = new FramedWriter(new OutputStreamWriter(this.socket.getOutputStream()));
 
-            String myProtocolVersion = "VANILLA/0.0.1";
+            String myProtocolVersion = "VANILLA/0.0.2";
             writer.writeString(myProtocolVersion);
             String otherVersion = reader.readString();
 

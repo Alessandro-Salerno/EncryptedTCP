@@ -4,7 +4,7 @@ EncryptedTCP works by using asymmetric encryption to exchange a symmetric key an
 
 ## Protocol & Handshake
 Assuming a clinet wants to connect to a server
-1. The client and the server exchange their protocol versions (Currently ```"VANILLA/0.0.1"```)
+1. The client and the server exchange their protocol versions (Currently ```"VANILLA/0.0.2"```)
 2. If the protocol versions don't match, the secure connection is terminated
 3. Otherwise, the server and the client exchange their randomly generated IDs
 4. Depending on the IDs, a slave and a master are chosen
