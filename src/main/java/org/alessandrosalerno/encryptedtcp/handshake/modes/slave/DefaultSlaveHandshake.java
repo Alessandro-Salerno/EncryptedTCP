@@ -6,8 +6,8 @@ import org.alessandrosalerno.encryptedtcp.asymmetric.AsymmetricEncryptionEngineF
 import org.alessandrosalerno.encryptedtcp.handshake.HandshakeResult;
 import org.alessandrosalerno.encryptedtcp.handshake.modes.HandshakeMode;
 import org.alessandrosalerno.encryptedtcp.symmetric.SymmetricEncryptionEngineFactory;
-import org.alessandrosalerno.framedtcp.FramedReader;
-import org.alessandrosalerno.framedtcp.FramedWriter;
+import alessandrosalerno.framedtcp.FramedReader;
+import alessandrosalerno.framedtcp.FramedWriter;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;

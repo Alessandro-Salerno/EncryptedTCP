@@ -1,6 +1,6 @@
 package org.alessandrosalerno.encryptedtcp;
 
-import org.alessandrosalerno.framedtcp.FramedReader;
+import alessandrosalerno.framedtcp.FramedReader;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

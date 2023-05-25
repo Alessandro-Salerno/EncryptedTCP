@@ -10,8 +10,8 @@ import org.alessandrosalerno.encryptedtcp.handshake.modes.HandshakeModeFactory;
 import org.alessandrosalerno.encryptedtcp.symmetric.DefaultSymmetricEncryptionEngineFactory;
 import org.alessandrosalerno.encryptedtcp.symmetric.SymmetricEncryptionEngine;
 import org.alessandrosalerno.encryptedtcp.symmetric.SymmetricEncryptionEngineFactory;
-import org.alessandrosalerno.framedtcp.FramedReader;
-import org.alessandrosalerno.framedtcp.FramedWriter;
+import alessandrosalerno.framedtcp.FramedReader;
+import alessandrosalerno.framedtcp.FramedWriter;
 
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
