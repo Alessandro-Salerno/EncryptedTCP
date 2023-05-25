@@ -39,9 +39,9 @@ try {
     EncryptedSocket encryptedSocket = new EncryptedSocket(socket);
     encryptedSocket.getWriter().writeString("Hello world");
     System.out.println("CLIENT: " + encryptedSocket.getReader().readString());
-  } catch (Exception e) {
+} catch (Exception e) {
     throw new RuntimeException(e);
-  }
+}
 ```
 
 ## License
