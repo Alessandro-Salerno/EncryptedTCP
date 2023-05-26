@@ -1,4 +1,4 @@
-import org.alessandrosalerno.encryptedtcp.EncryptedSocket;
+import alessandrosalerno.encryptedtcp.EncryptedSocket;
 
 import java.net.ServerSocket;
 import java.net.Socket;
